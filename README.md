@@ -1,7 +1,7 @@
 # NAMD-on-Google-Colab
 This script to running NAMD Molecular Dynamics in Google Colab
 
-# Perhitungan MMGBSA
+# MMGBSA Calculation in NAMD3 https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb
 
 1. vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args protein,or,resname,JZ4 "step5_production.dcd" "complex" step3_input.psf step3_input.pdb
 2. vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args protein "step5_production.dcd" "protein" step3_input.psf step3_input.pdb
