@@ -6,7 +6,7 @@ This script to running NAMD Molecular Dynamics in Google Colab
 2. Extract file 
 3. Run with this command: chmod +x install.sh
 4. Run this command: ./install.sh
-5. If error replace this file in installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
+5. If error replace this molaical.exe file in installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
 
 # MMGBSA Calculation in NAMD3 https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb
 
