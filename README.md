@@ -24,5 +24,5 @@ This script to running NAMD Molecular Dynamics in Google Colab, and free energy 
 # Perhitungan MMPBSA
 1. *vmd -dispdev text -eofexit < mmpbsa.vmd > vmd_mmpbsa.log*
 
-# Perhitungan LIE
+# Perhitungan  Linear Interaction Energy (LIE)
 1. *vmd -dispdev text -eofexit < lie.vmd > vmd_lie.log*
