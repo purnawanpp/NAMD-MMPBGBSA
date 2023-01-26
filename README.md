@@ -1,4 +1,4 @@
-# NAMD-on-Google-Colab
+# Free Energy Calculation using NAMD
 This script to running NAMD Molecular Dynamics in Google Colab
 
 # Installation MolAICal
