@@ -1,0 +1,83 @@
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 12 CPUs.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 HT 
+Info) Free system memory: 13GB (85%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator::
+Info) [0] NVIDIA GeForce GTX 1660 SUPER 22 SM_7.5 1.8 GHz, 5.8GB RAM SP32 KT AE3 ZC
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling  OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 3 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+1.0
+CaFE) Sanity check
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file step3_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 46377
+Info)    Bonds: 46309
+Info)    Angles: 19339  Dihedrals: 6974  Impropers: 458  Cross-terms: 161
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 14803
+Info)    Waters: 14551
+Info)    Segments: 4
+Info)    Fragments: 14641   Protein: 1   Nucleic: 0
+CaFE) Found 2636 atoms for complex
+CaFE) Found 2614 atoms for receptor
+CaFE) Found 22 atoms for ligand
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file step5_production.dcd
+Info) Finished with coordinate file step5_production.dcd.
+CaFE) Loaded 100 frames for complex
+CaFE) Generating new trajectory for complex
+Info) Opened coordinate file _mmpbsa_com_tmp.dcd for writing.
+Info) Finished with coordinate file _mmpbsa_com_tmp.dcd.
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file step3_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 46377
+Info)    Bonds: 46309
+Info)    Angles: 19339  Dihedrals: 6974  Impropers: 458  Cross-terms: 161
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 14803
+Info)    Waters: 14551
+Info)    Segments: 4
+Info)    Fragments: 14641   Protein: 1   Nucleic: 0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file _mmpbsa_com_tmp.dcd
+Info) Finished with coordinate file _mmpbsa_com_tmp.dcd.
+CaFE) Loaded 100 frames for complex
+CaFE) It took 0 days 0 hrs 0 min 0 sec
+CaFE) Calculating the MM term
+Info) Opened coordinate file com_mm_tmp.pdb for writing.
+Info) Finished with coordinate file com_mm_tmp.pdb.
+Info) Opened coordinate file rec_mm_tmp.pdb for writing.
+Info) Finished with coordinate file rec_mm_tmp.pdb.
+Info) Opened coordinate file lig_mm_tmp.pdb for writing.
+Info) Finished with coordinate file lig_mm_tmp.pdb.
+CaFE) It took 0 days 0 hrs 3 min 28 sec
+CaFE) Calculating the PB term
+Info) ======================
+Info) Please cite TopoTools as:
+Info) Axel Kohlmeyer & Josh Vermaas, (2019). TopoTools: Release 1.8
+Info) https://doi.org/10.5281/zenodo.598373
+Info) ======================
+
+CaFE) It took 0 days 0 hrs 15 min 42 sec
+CaFE) Calculating the SA term
+CaFE) It took 0 days 0 hrs 0 min 14 sec
+CaFE) Generating the result
+CaFE) It took 0 days 0 hrs 0 min 0 sec
+CaFE) Total elapsed time: 0 days 0 hrs 19 min 24 sec
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.

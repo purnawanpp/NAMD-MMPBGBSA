@@ -1,0 +1,109 @@
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 12 CPUs.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 HT 
+Info) Free system memory: 12GB (74%)
+Info) Creating CUDA device pool and initializing hardware...
+Info) Detected 1 available CUDA accelerator::
+Info) [0] NVIDIA GeForce GTX 1660 SUPER 22 SM_7.5 1.8 GHz, 5.8GB RAM SP32 KT AE3 ZC
+Info) Detected 1 available TachyonL/OptiX ray tracing accelerator
+Info)   Compiling  OptiX shaders on 1 target GPU...
+Info) Dynamically loaded 3 plugins in directory:
+Info) /usr/local/lib/vmd/plugins/LINUXAMD64/molfile
+1.0
+CaFE) Sanity check
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file step3_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 46377
+Info)    Bonds: 46309
+Info)    Angles: 19339  Dihedrals: 6974  Impropers: 458  Cross-terms: 161
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 14803
+Info)    Waters: 14551
+Info)    Segments: 4
+Info)    Fragments: 14641   Protein: 1   Nucleic: 0
+CaFE) Found 22 atoms for ligand in the bound state
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file step5_production.dcd
+Info) Finished with coordinate file step5_production.dcd.
+CaFE) Loaded 100 frames for ligand in the bound state
+CaFE) Generating new trajectory for ligand in the bound state
+Info) Opened coordinate file _lie_bound_tmp.dcd for writing.
+Info) Finished with coordinate file _lie_bound_tmp.dcd.
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file ligand.psf
+psfplugin) WARNING: no impropers defined in PSF file.
+psfplugin) no cross-terms defined in PSF file.
+Info) Analyzing structure ...
+Info)    Atoms: 43675
+Info)    Bonds: 43675
+Info)    Angles: 14588  Dihedrals: 50  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 14552
+Info)    Waters: 14551
+Info)    Segments: 2
+Info)    Fragments: 14552   Protein: 0   Nucleic: 0
+CaFE) Found 22 atoms for ligand in the free state
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file ligand.dcd
+Info) Finished with coordinate file ligand.dcd.
+CaFE) Loaded 100 frames for ligand in the free state
+CaFE) Generating new trajectory for ligand in the free state
+Info) Opened coordinate file _lie_free_tmp.dcd for writing.
+Info) Finished with coordinate file _lie_free_tmp.dcd.
+CaFE) It took 0 days 0 hrs 0 min 1 sec
+CaFE) Calculating the interaction energy
+psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file step3_input.psf
+Info) Analyzing structure ...
+Info)    Atoms: 46377
+Info)    Bonds: 46309
+Info)    Angles: 19339  Dihedrals: 6974  Impropers: 458  Cross-terms: 161
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 14803
+Info)    Waters: 14551
+Info)    Segments: 4
+Info)    Fragments: 14641   Protein: 1   Nucleic: 0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file _lie_bound_tmp.dcd
+Info) Finished with coordinate file _lie_bound_tmp.dcd.
+CaFE) Loaded 100 frames for ligand in the bound state
+Info) Opened coordinate file bound_mm_tmp.pdb for writing.
+Info) Finished with coordinate file bound_mm_tmp.pdb.
+psfplugin) Detected a Charmm PSF EXTEnded file
+Info) Using plugin psf for structure file ligand.psf
+psfplugin) WARNING: no impropers defined in PSF file.
+psfplugin) no cross-terms defined in PSF file.
+Info) Analyzing structure ...
+Info)    Atoms: 43675
+Info)    Bonds: 43675
+Info)    Angles: 14588  Dihedrals: 50  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 14552
+Info)    Waters: 14551
+Info)    Segments: 2
+Info)    Fragments: 14552   Protein: 0   Nucleic: 0
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+Info) Using plugin dcd for coordinates from file _lie_free_tmp.dcd
+Info) Finished with coordinate file _lie_free_tmp.dcd.
+CaFE) Loaded 100 frames for ligand in the free state
+Info) Opened coordinate file free_mm_tmp.pdb for writing.
+Info) Finished with coordinate file free_mm_tmp.pdb.
+CaFE) It took 0 days 0 hrs 3 min 37 sec
+CaFE) Generating the result
+CaFE) It took 0 days 0 hrs 0 min 0 sec
+CaFE) Total elapsed time: 0 days 0 hrs 3 min 38 sec
+Info) VMD for LINUXAMD64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.
