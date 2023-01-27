@@ -1,5 +1,6 @@
 # Free Energy Calculation using NAMD #
-This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using MMPBSA and MMGBSA
+This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using MMPBSA and MMGBSA.
+This tutorial using preperation input file using CHARMM-GUI, with PDB ID: 3HTB. Protein and Ligand using CHARMM36M Force Field and water model was TIP3P
 
 # MMGBSA Calculation using MolAICal https://molaical.github.io/
 Installation MolAICal
