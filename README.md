@@ -1,4 +1,4 @@
-# Free Energy Calculation using NAMD
+# Free Energy Calculation using NAMD #
 This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using MMPBSA and MMGBSA
 
 # Installation MolAICal
