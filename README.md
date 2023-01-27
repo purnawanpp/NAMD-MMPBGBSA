@@ -21,8 +21,8 @@ Running NAMD3 to get file complex.log, protein.log and ligand.log and calculatio
 3. namd3 ligand.conf > ligand.log
 4. molaical.exe -mmgbsa -c "complex.log" -r "protein.log" -l "ligand.log"
 
-Running MolAICal in google colab
-1. Please open this file and running in your google colab: https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb
+Optional-Running MolAICal in google colab
+1. Please open this file and running in your google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb) https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb
 
 
 # MMPBSA using CAFE https://github.com/HuiLiuCode
