@@ -1,7 +1,7 @@
 # Free Energy Calculation using NAMD #
 This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using MMPBSA and MMGBSA
 
-# MMGBSA Calculation in NAMD3 https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb
+# MMGBSA Calculation in NAMD3
 Installation MolAICal
 1. Download linux version: https://drive.google.com/file/d/1k_UESTx8FZHYmmuXIFra7_dyvq9e4j3d/view?usp=share_link
 2. Extract file 
@@ -19,6 +19,9 @@ Running NAMD3 to get file complex.log, protein.log and ligand.log and calculatio
 2. namd3 protein.conf > protein.log
 3. namd3 ligand.conf > ligand.log
 4. molaical.exe -mmgbsa -c "complex.log" -r "protein.log" -l "ligand.log"
+
+Running MolAICal in google colab
+1. Please open this file and running in your google colab: https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb
 
 
 # MMPBSA using CAFE https://github.com/HuiLiuCode
