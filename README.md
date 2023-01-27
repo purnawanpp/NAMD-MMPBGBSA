@@ -26,12 +26,12 @@ Running MolAICal in google colab
 
 
 # MMPBSA using CAFE https://github.com/HuiLiuCode
-Pisahkan dengan perintah complex dan ligand dengan perintah
-1. Tetap menggunakan air, solvasi dan garam dll sesuai tutorial
-2. Untuk memisahkan ligand dengan solvasinya jalankan perintah berikut: *vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args water,or,resname,JZ4 "step5_production.dcd" "ligand" step3_input.psf step3_input.pdb*
+Preparation complex and ligand
+1. Complex using come from step3_input.psf file and step5_production.dcd
+2. Preparation ligand and water model using this command: *vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args water,or,resname,JZ4 "step5_production.dcd" "ligand" step3_input.psf step3_input.pdb*
 
-Perhitungan MMPBSA
+Calculation free energy using MMPBSA
 1. *vmd -dispdev text -eofexit < mmpbsa.vmd > vmd_mmpbsa.log*
 
-Perhitungan  Linear Interaction Energy (LIE)
+Calculation free energy using Linear Interaction Energy (LIE)
 1. *vmd -dispdev text -eofexit < lie.vmd > vmd_lie.log*
