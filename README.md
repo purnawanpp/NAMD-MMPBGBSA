@@ -17,7 +17,7 @@ This script to running NAMD Molecular Dynamics in Google Colab, and free energy 
 
 
 # MMPBSA using CAFE https://github.com/HuiLiuCode
-#Pisahkan dengan perintah complex dan ligand dengan perintah.#
+Pisahkan dengan perintah complex dan ligand dengan perintah
 1. Tetap menggunakan air, solvasi dan garam dll sesuai tutorial
 2. Untuk memisahkan ligand dengan solvasinya jalankan perintah berikut: *vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args water,or,resname,JZ4 "step5_production.dcd" "ligand" step3_input.psf step3_input.pdb*
 
