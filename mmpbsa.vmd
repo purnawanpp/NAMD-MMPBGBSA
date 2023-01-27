@@ -52,7 +52,7 @@ mmpbsa -top       step3_input.psf \
 	 -par              toppar/toppar_all36_carb_imlab.str \
 	 -par              toppar/toppar_all36_label_spin.str \
 	 -par           toppar/toppar_all36_label_fluorophore.str \
-	 -par           jz4/jz4.prm \
+	 -par           ../jz4/jz4.prm \
        -com       "segname PROA HETC" \
        -rec       "segname PROA" \
        -lig       "segname HETC" \
