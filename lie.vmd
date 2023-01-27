@@ -4,7 +4,7 @@ lie -top_bound    step3_input.psf \
     -trj_bound    step5_production.dcd \
     -top_free     ligand.psf \
     -trj_free     ligand.dcd \
-    -out          lie_baru.log \
+    -out          lie_results.log \
     -par       toppar/par_all36m_prot.prm \
     -par       toppar/par_all36_na.prm \
        -par              toppar/par_all36_carb.prm \
