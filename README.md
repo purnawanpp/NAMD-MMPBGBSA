@@ -8,7 +8,8 @@ Installation MolAICal
 2. Extract file 
 3. Run with this command: *chmod +x install.sh*
 4. Run this command: *./install.sh*
-5. If error replace this molaical.exe file in installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
+5. Make a path for running molaical.exe
+6. If error replace this molaical.exe file in installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
 
 Separation complex, protein, ligand
 1. *vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args protein,or,resname,JZ4 "step5_production.dcd" "complex" step3_input.psf step3_input.pdb*
