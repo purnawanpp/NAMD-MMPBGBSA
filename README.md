@@ -16,10 +16,10 @@ Separation complex, protein, ligand
 3. *vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args resname,JZ4 "step5_production.dcd" "ligand" step3_input.psf step3_input.pdb*
 
 Running NAMD3 to get file complex.log, protein.log and ligand.log and calculation mmgbsa using MolAICal
-1. *namd3 complex.conf > complex.log
-2. *namd3 protein.conf > protein.log
-3. *namd3 ligand.conf > ligand.log
-4. *molaical.exe -mmgbsa -c "complex.log" -r "protein.log" -l "ligand.log"
+1. *namd3 complex.conf > complex.log*
+2. *namd3 protein.conf > protein.log*
+3. *namd3 ligand.conf > ligand.log*
+4. *molaical.exe -mmgbsa -c "complex.log" -r "protein.log" -l "ligand.log"*
 
 Optional-Running MolAICal in google colab
 1. Please open this file and running in your google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb#scrollTo=osCb8g67qpVT)
