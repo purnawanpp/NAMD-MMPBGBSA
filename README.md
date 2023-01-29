@@ -27,7 +27,7 @@ Optional-Running MolAICal in google colab
 1. Please open this file and running in your google colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/purnawanpp/NAMD-on-Google-Colab/blob/main/MMGBSA_NAMD.ipynb#scrollTo=osCb8g67qpVT)
 
 
-# MMPBSA using CAFE https://github.com/HuiLiuCode
+# MMPBSA and Linear Interaction Energy (LIE) Calculation using CAFE https://github.com/HuiLiuCode
 Software installation
 1. NAMD 2.14 multicore non CUDA https://www.ks.uiuc.edu/Research/namd/2.14/download/946183/NAMD_2.14_Linux-x86_64-multicore.tar.gz
 2. apbs linux version https://github.com/Electrostatics/apbs/releases/download/v3.4.1/APBS-3.4.1.Linux.zip
