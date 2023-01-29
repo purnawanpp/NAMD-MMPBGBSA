@@ -4,7 +4,7 @@ This tutorial using preperation input file using CHARMM-GUI, with PDB ID: 3HTB. 
 
 # MMGBSA Calculation using MolAICal https://molaical.github.io/
 Installation MolAICal
-1. Download linux version: https://drive.google.com/file/d/1k_UESTx8FZHYmmuXIFra7_dyvq9e4j3d/view?usp=share_link
+1. Download linux version: https://drive.google.com/file/d/1k_UESTx8FZHYmmuXIFra7_dyvq9e4j3d/view?usp=share_link or https://molaical.github.io/
 2. Extract file 
 3. Run with this command: chmod +x install.sh
 4. Run this command: ./install.sh
