@@ -1,15 +1,15 @@
 # Free Energy Calculation With NAMD #
 This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using MMPBSA and MMGBSA.
-This tutorial using preperation input file using CHARMM-GUI, with PDB ID: 3HTB. Protein and Ligand using CHARMM36M Force Field and water model was TIP3P and 1 ns simulation
+This tutorial uses a preparation input file using CHARMM-GUI, with PDB ID: 3HTB. Protein and Ligand using CHARMM36M Force Field and water model was TIP3P and one ns simulation
 
 # MMGBSA Calculation using MolAICal https://molaical.github.io/
 Installation MolAICal
-1. Download linux version: https://drive.google.com/file/d/1k_UESTx8FZHYmmuXIFra7_dyvq9e4j3d/view?usp=share_link or https://molaical.github.io/
-2. Extract file 
+1. Download the Linux version: https://drive.google.com/file/d/1k_UESTx8FZHYmmuXIFra7_dyvq9e4j3d/view?usp=share_link or https://molaical.github.io/
+2. Extract the file 
 3. Run with this command: *chmod +x install.sh*
 4. Run this command: *./install.sh*
 5. Make a path for running molaical.exe
-6. If error replace this molaical.exe file in installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
+6. If there is an error, replace this molaical.exe file in the installation folder https://github.com/purnawanpp/NAMD-on-Google-Colab/blob/main/molaical.exe
 7. Tutorial installation https://molaical.github.io/install.html
 
 Separation complex, protein, ligand
@@ -30,15 +30,15 @@ Optional-Running MolAICal in google colab
 # MMPBSA and Linear Interaction Energy (LIE) Calculation using CAFE https://github.com/HuiLiuCode
 Software installation
 1. NAMD 2.14 multicore non CUDA https://www.ks.uiuc.edu/Research/namd/2.14/download/946183/NAMD_2.14_Linux-x86_64-multicore.tar.gz
-2. apbs linux version https://github.com/Electrostatics/apbs/releases/download/v3.4.1/APBS-3.4.1.Linux.zip
+2. apbs Linux version https://github.com/Electrostatics/apbs/releases/download/v3.4.1/APBS-3.4.1.Linux.zip
 3. Installation CAFE please read this tutorial https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/manual_CAFE.pdf
-4. Dont forget to make a path NAMD 2.14 and apbs
+4. Don't forget to make a path NAMD 2.14 and apbs
 
 Preparation complex and ligand
-1. Complex using come from step3_input.psf file and step5_production.dcd
+1. Complex use comes from step3_input.psf file and step5_production.dcd
 2. Preparation ligand and water model using this command: *vmd -dispdev text -psf "step3_input.psf" -e stripDCD.vmd -args water,or,resname,JZ4 "step5_production.dcd" "ligand" step3_input.psf step3_input.pdb*
 
-Calculation free energy using MMPBSA
+Calculation-free energy using MMPBSA
 1. *vmd -dispdev text -eofexit < mmpbsa.vmd > vmd_mmpbsa.log*
 
 Calculation free energy using Linear Interaction Energy (LIE)
