@@ -1,5 +1,5 @@
 # Free Energy Calculation With NAMD #
-This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using MMPBSA and MMGBSA.
+This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using Linear Interaction Energy (LIE), Molecular Mechanics Poisson-Boltzmann Surface Area (MMPBSA) and Molecular Mechanics Generalized Born Surface Area (MMGBSA).
 This tutorial uses a preparation input file using CHARMM-GUI https://www.charmm-gui.org/, with PDB ID: 3HTB. Protein and Ligand using CHARMM36M Force Field and water model was TIP3P and one ns simulation
 
 # MMGBSA Calculation using MolAICal https://molaical.github.io/
