@@ -28,7 +28,7 @@ Optional-Running MolAICal in google colab
 
 
 # MMPBSA and Linear Interaction Energy (LIE) Calculation using CaFE https://github.com/HuiLiuCode/CaFE_Plugin
-Software installation
+Required software:
 1. NAMD 2.14 multicore non CUDA https://www.ks.uiuc.edu/Research/namd/2.14/download/946183/NAMD_2.14_Linux-x86_64-multicore.tar.gz
 2. Adaptive Poisson-Boltzmann Solver (apbs) Linux version https://github.com/Electrostatics/apbs/releases/download/v3.4.1/APBS-3.4.1.Linux.zip
 3. Installation CAFE please read this tutorial https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/manual_CAFE.pdf
