@@ -44,6 +44,6 @@ Calculation-free energy using MMPBSA
 Calculation free energy using Linear Interaction Energy (LIE)
 1. *vmd -dispdev text -eofexit < lie.vmd > vmd_lie.log*
 
-# Binding Free-Energy Estimator 2 https://github.com/fhh2626/BFEE2
+# Binding Free-Energy Estimator 2 (BFEE2) https://github.com/fhh2626/BFEE2
 1. Read this tutorial: https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/BFEE2.pdf
 2. Read this article: https://github.com/purnawanpp/NAMD-MMPBGBSA/blob/main/BFEE2_NAMD.pdf
