@@ -2,6 +2,10 @@
 This script to running NAMD Molecular Dynamics in Google Colab, and free energy calculation using Linear Interaction Energy (LIE), Molecular Mechanics Poisson-Boltzmann Surface Area (MMPBSA) and Molecular Mechanics Generalized Born Surface Area (MMGBSA).
 This tutorial uses a preparation input file using CHARMM-GUI https://www.charmm-gui.org/, with PDB ID: 3HTB. Protein and Ligand using CHARMM36M Force Field and water model was TIP3P and one ns simulation. We simulated the protein and ligand using the CUDA-integrated version of NAMD3 https://www.ks.uiuc.edu/Research/namd/alpha/3.0alpha/download/NAMD_3.0alpha13_Linux-x86_64-multicore-CUDA-SingleNode.tar.gz
 
+# Video Tutorial
+1. MMGBSA Calculation using MolAICal https://youtu.be/7BbPMqIe3io
+2. MMPBSA and Linear Interaction Energy (LIE) Calculation using CaFE https://youtu.be/IANeNzOiKuM
+
 # MMGBSA Calculation using MolAICal https://molaical.github.io/
 Installation MolAICal
 1. Download the Linux version: https://drive.google.com/file/d/1k_UESTx8FZHYmmuXIFra7_dyvq9e4j3d/view?usp=share_link or https://molaical.github.io/
